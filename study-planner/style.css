@@ -1,0 +1,241 @@
+
+/* ----- GENERAL STYLING ----- */
+
+body {
+    background-image: url(bg13.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 11pt;
+    color: white;
+}
+
+h2 {
+    font-size: 25pt;
+    font-variant: all-small-caps;
+    text-align: center;
+    color: #E91E63;
+}
+
+h3 {
+    font-size: 15pt;
+    font-variant: all-small-caps;
+    color: #E91E63;
+}
+
+h4 {
+    font-size: 50pt;
+}
+
+h5 {
+    font-size: 30pt;
+}
+
+label {
+    font-weight: 500;
+    font-variant: all-small-caps;
+    font-size: 12pt;
+}
+
+/* .text-success {
+    color: #8BC34A!important;
+}
+
+.text-warning {
+    color: #FFEB3B!important;
+}
+
+
+.text-danger {
+    color: #F44336!important;
+} */
+
+button, .btnPage, .btnOpenPopup, .btnClosePopup {
+    cursor: pointer;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:focus {
+    background-color: #E91E63;
+    border: none;
+}
+
+.btn-danger, .bg-danger {
+    /* background-color: #a21010!important; */
+    border: none;
+}
+
+.btn-warning, .bg-warning {
+    /* background-color: #FFEB3B!important; */
+    border: none;
+    /* color: black; */
+}
+
+.btn-success, .bg-success {
+    /* background-color: #8BC34A!important; */
+    border: none;
+    /* color: black; */
+}
+
+.rounded-bottom.logo-footer {
+    display: none;
+}
+
+.contentBox {
+    background-color: #212529;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.page, .topNav {
+    display: none;
+}
+
+.page {
+    margin-bottom: 50px;
+}
+
+.show {
+    display: block;
+}
+
+.pageOptions {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#map {
+    width: 100%;
+}
+
+/* ----- END OF GENERAL STYLING ----- */
+
+
+/* ----- NAVIGATION STYLES ----- */
+
+.navHeader {
+    height: 20px;
+    background-color: #212529;
+}
+
+.navItem {
+    text-align: center;
+    border-bottom: 1px solid;
+    background-color: #212529;
+    font-variant: all-small-caps;
+    border-color: #E91E63;
+}
+
+.navItem.active {
+    border-width: 1px 1px 0px 1px;
+    border-style: solid;
+    background-color: transparent;
+}
+
+#navBottom {
+    position: fixed;
+    bottom: 0;
+    background-color: #E91E63;
+    height: 25px;
+    font-variant: all-small-caps;
+}
+
+/* .navUserImg {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-size: cover;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    color: #607D8B;
+} */
+
+/* ----- END OF NAVIGATION STYLES ----- */
+
+/* ----- LOGIN AND SIGNUP STYLING ----- */
+
+
+
+/* ----- END OF LOGIN AND SIGNUP STYLING ----- */
+
+/* ----- PROJECTS STYLING ----- */
+
+.colProject {
+    margin-bottom: 15px;
+}
+
+.currentItem {
+    background-color: #212529;
+    padding: 15px;
+}
+
+i.fa.fa-cog {
+    float: right;
+    color: rgb(255, 255, 255);
+    font-size: 15pt;
+    margin-top: 1px;
+}
+
+/* ----- END OF PROJECTS STYLING ----- */
+
+/* ----- POPUP STYLING ----- */
+
+#popupOverlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: none;
+}
+
+.popupBox {
+    position: absolute;
+    top: 60px;
+    width: 70vw;
+    left: 15vw;
+    display: none;
+    overflow: hidden;
+    background-color: #212529;
+    padding: 15px;
+}
+
+.btnClosePopup.fa {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20pt;
+}
+
+/* ----- END OF POPUP STYLING ----- */
+
+.userTimeline select {
+    border: none;
+    width: 120px;
+    float: right;
+    margin-top: 8px;
+}
+
+.userTimeline th {
+    text-align: center;
+}
+
+.settingsColumn {
+    background-color: #212529;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.adminOverview button {
+    float: right;
+}
+
+.adminOverview .contentBox {
+    padding-bottom: 50px;
+}
+
+.manageAdmins .btn-danger {
+    float: right;
+    margin-top: -55px;
+}
