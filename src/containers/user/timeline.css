@@ -1,0 +1,58 @@
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: .5rem;
+}
+
+.contentBox {
+    background-color: #212529;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #383838;
+}
+
+.o-timeline-item {
+    padding: 0;
+    border-width: 0px 10px 1px 0px;
+    border-style: solid;
+}
+
+.o-timeline-item--icon {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+}
+
+.o-timeline-item--icon img, .o-timeline-item--icon .svg {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+    vertical-align: bottom;
+}
+
+.o-timeline-item--content {
+    display: inline-block;
+    width: calc(100% - 100px);
+    padding-left: 10px;
+}
+
+
+
+/* OVERVIEW */
+.c-overview-table td {
+    padding: 0;
+    border: none;
+}
+
+.c-overview-box {
+    position: relative;
+}
+
+.c-overview-add {
+    fill: #F2671F;
+    width: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}

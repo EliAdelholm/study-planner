@@ -1,7 +1,8 @@
 <?php
 session_start();
+echo "OK";
 // GET FORM DATA
-$sUserName = $_POST['txtUserName'];
+/*$sUserName = $_POST['txtUserName'];
 $sEmail = $_POST['txtUserEmail'];
 $sPassword = $_POST['txtUserPassword'];
 $sFileName = $_FILES['fileUserImg']['name'];
@@ -67,7 +68,7 @@ $_SESSION['sUserName'] = $sUserName;
 $_SESSION['sUserImg'] = $sFileName;
 
 // RETURN DATA TO CLIENT
-echo '{"status": "OK"}';
+echo '{"status": "OK"}';*/
 
 
 
