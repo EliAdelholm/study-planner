@@ -1,0 +1,58 @@
+.c-settings-icon {
+    width: 50%;
+    margin-left: 25%;
+    fill: #F2671F;
+}
+
+.c-settings-add--input {
+    width: 250px;
+    height: 30px;
+    font-size: 11pt;
+}
+
+#root .form-control:focus {
+    border-color: rgb(130, 49, 153);
+}
+
+#root .btn-primary {
+    background-color: #F2671F;
+    border: none;
+    color: black;
+}
+
+#root .btn-success {
+    background-color: rgb(130, 49, 153);
+    border: none;
+    color: black;
+}
+
+#root .btn-warning {
+    background-color: rgb(156, 15, 95);
+    border: none;
+    color: black;
+}
+
+#root .btn-danger {
+    background-color: rgb(201, 27, 38);
+    border: none;
+    color: black;
+}
+
+#root .input-group-addon {
+    background-color: #F2671F;
+    color: black;
+    height: 30px;
+}
+
+.btn-x {
+    width: 30px;
+    margin-bottom: 5px;
+    height: 30px;
+}
+
+label {
+    color: #F2671F;
+    font-size: 12pt;
+    font-weight: 600;
+    font-variant: all-small-caps;
+}

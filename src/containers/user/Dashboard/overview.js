@@ -17,7 +17,7 @@ class Overview extends Component {
                 <div className="col-12 col-sm-6 col-lg-3">
                     <div className="contentBox c-overview-box">
                         <h3>Projects</h3>
-                        <table class="table c-overview-table">
+                        <table className="table c-overview-table">
                             <tbody>
                                 <tr>
                                     <td>30</td>
@@ -48,7 +48,7 @@ class Overview extends Component {
                     <div className="contentBox c-overview-box">
                         <h3>Goals</h3>
 
-                        <table class="table c-overview-table">
+                        <table className="table c-overview-table">
                             <tbody>
                                 <tr>
                                     <td>30</td>
@@ -76,9 +76,9 @@ class Overview extends Component {
                 </div>
 
                 <div className="col-12 col-sm-6  col-lg-3">
-                    <div className="contentBox c-overview-box">
+                    <div className="contentBox c-overview-box" onClick={() => this.props.onAdd("meeting")} >
                         <h3>Meetings</h3>
-                        <table class="table c-overview-table">
+                        <table className="table c-overview-table" >
                             <tbody>
                                 <tr>
                                     <td>30</td>
@@ -100,7 +100,8 @@ class Overview extends Component {
                         </table>
                         <ReactSVG
                             path={addIcon}
-                            className="c-overview-add"
+                            className="c-overview-add" 
+                            onClick={() => this.props.onAdd("meeting")} 
                         />
                     </div>
                 </div>
@@ -108,7 +109,7 @@ class Overview extends Component {
                 <div className="col-12 col-sm-6  col-lg-3">
                     <div className="contentBox c-overview-box">
                         <h3>Deadlines</h3>
-                        <table class="table c-overview-table">
+                        <table className="table c-overview-table">
                             <tbody>
                                 <tr>
                                     <td>30</td>
